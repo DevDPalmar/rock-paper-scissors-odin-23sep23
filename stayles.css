@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@500&display=swap');
+
+*{
+    background-color: cyan;
+    font-family: 'Martian Mono', monospace;
+}
+
+.tittle{
+    justify-content: center;
+    display: flex;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons>div {
+    margin: 0 25px;
+}
