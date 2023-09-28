@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="stayles.css">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ROCK, STICK OR SCISSORS</title>
+        <link rel="stylesheet" href="stayles.css">
     </head>
 
     <body>
@@ -12,33 +12,39 @@
             <h1>ROCK, PAPER, SCISSORS PLAYER VS. COMPUTER</h1>
         </div>
 
-        <br>
-
         <div class="buttons">
-            <div class="button1">
+            <div class="button1" id="button1">
                 <h2>ROCK</h2>
             </div>
 
-            <br>
-
-            <div class="button2">
+            <div class="button2" id="button2">
                 <h2>PAPER</h2>
             </div>
 
-            <br>
-
-            <div class="button3">
+            <div class="button3" id="button3">
                 <h2>SCISSORS</h2>
             </div>
         </div>
 
+        <div class="results">
+            <div class="choices">
+                <h3 class="results_player" id="results_p">player (You):</h3>
+                <h3 class="results_computer" id="results_c">computer:</h3>
+            </div>
+            <h3 class="round_result" id="round_result"></h3>
+        </div>
+
         <div class="score">
             <div class="player">
-                <h3>player's score:0</h3>
+                <h3 id="player">player's score:0</h3>
             </div>
             <div class="computer">
-                <h3>player's computer:0</h3>
+                <h3 id="computer">computer score:0</h3>
             </div>
         </div>
-    </body>
+        <footer>
+            <p class="copyright"><a>©copyright</a> 2023 from DevDPalmar's github repositories</p>
+        </footer>
+
+        <script src="./script.js"></script>
 </html>
